@@ -5,7 +5,7 @@ pipeline{
         PATH = "/opt/maven/bin:$PATH"
      }
      stages{
-         stage("Git Checout"){
+         stage("Git-Checout"){
               steps{
                   git credentialsId: '11b4bca2-3aad-4d17-887a-439f6f3b3c8d', url: 'https://github.com/Sarbesh-b/maven-project'
               }
